@@ -1,0 +1,14 @@
+var arr3= [ 'Soundarya', 'Mathan', 'Sampath','Chandra' ];
+console.log(arr3.length);
+var arr3 = [  'Soundarya', 'Mathan', 'Sampath','Chandra'];
+arr3.push("Sridhar");
+console.log(arr3);
+arr3[arr3.length] = "Bala";
+console.log(arr3);
+var arr3 = [ 'Soundarya', 'Mathan',];
+arr3[20] = "Aravind";
+console.log(arr3);
+var arr3 = [  'Soundarya', 'Mathan', 'Sampath','Chandra','Aravind','Sridhar'];
+arr3.splice(2, 2);
+console.log(arr3);
+console.log(arr3.length);
