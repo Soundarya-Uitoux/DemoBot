@@ -1,6 +1,9 @@
 let hour = 10
-if (hour < 20) {
+if (hour < 20)
+ {
   greeting = "Good day";
-} else {
+} 
+else 
+{
   greeting = "Good evening";
 }
